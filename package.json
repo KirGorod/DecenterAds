@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build src/style.scss --public-url=/dist/",
+    "build": "parcel build src/styles/style.scss --public-url=/dist/",
     "watch-css": "sass --watch src/styles:dist/css"
   },
   "keywords": [],
