@@ -1,24 +1,25 @@
+@import "./variables.scss";
+
 body {
-    color: $primary-color;
-    font-family: 'Helvetica Neue', sans-serif;
+  color: $primary-color;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 90px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .button {
-    padding: 16px 40px;
-    color: #FFFFFF;
-    font-size: 21px;
-    background-color: $primary-btn-color; 
-    border-radius: 84px;
-    
-    &:hover {
-        transition: 0.5s;
-        background-color: #ce7213;
-    }
+  padding: 16px 38px;
+  color: #ffffff;
+  font-size: 21px;
+  background-color: $primary-btn-color;
+  border-radius: 84px;
+
+  &:hover {
+    transition: 0.5s;
+    background-color: #ce7213;
+  }
 }
