@@ -1,0 +1,19 @@
+@import "variables";
+
+.meet_us {
+  &__heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.84px;
+    color: $color-blue;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+
+  &__image {
+    background: url(../../src/images/map.jpg);
+    height: 355px;
+    width: 100%;
+  }
+}
