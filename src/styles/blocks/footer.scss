@@ -1,0 +1,32 @@
+.footer {
+  background-color: #0b83be;
+  padding: 50px 335px 60px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__links {
+    margin-bottom: 40px;
+  }
+
+  &__address {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.88px;
+    color: #fff;
+  }
+
+  &__info {
+    color: inherit;
+    text-emphasis: none;
+  }
+}
